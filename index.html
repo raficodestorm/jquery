@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="ami">
+        Hello!
+    </div>
+    <br>
+    <button class="butt">click</button>
+    <br>
+    <div class="tomi">
+        Hello!
+    </div>
+    <br>
+    <button class="but">click</button>
+    <br>
+    <div class="she">
+        Hello!
+    </div>
+    <br>
+    <button class="buto">click</button>
+    <br>
+
+    <!-- Try CDN first -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Fallback to local if CDN fails -->
+    <script>
+        if (typeof jQuery == 'undefined') {
+            document.write('<script src="js/jquery-3.7.1.min.map"><\/script>');
+        }
+    </script>
+
+
+    <script src="js/custom.js"></script>
+</body>
+</html>
