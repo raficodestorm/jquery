@@ -14,3 +14,14 @@ $(document).ready(function(){
         $('.she').toggle(2000);
     });
 });
+
+// -----------------------------class 2-------------------------
+
+$('.remove').css("background-color","green");
+$('.re').addClass("remo");
+
+$(document).ready(function(){
+    $('.ch').click(function(){
+        $('.r').text("Hello!");
+    });
+})
