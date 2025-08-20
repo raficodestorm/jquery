@@ -36,3 +36,16 @@ button{
     background-color: tomato;
     border-radius: 7px;
 }
+
+/* ----------------------------class 2-------------------------------- */
+
+.remove{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(127, 42, 207);
+}
+.remo{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(214, 36, 104);
+}
